@@ -37,6 +37,18 @@ After finalizing the design and stability of the circuit, the performance was ch
 #### Relevant Amplifier S-parameters and NF
 ![Relevant Amplifier S-parameters and NF](https://github.com/yichienchiang/RF-Low-Noise-Amplifier/blob/677c6341c9abdfe123e23d62d163b5e3d96a8ecd/Full%20LNA%20graph.PNG)
 
+#### LNA Compliance Matrix
+
+|    parameter  | Specificaiton   | Simulated Result   | Compliant Y/N |
+| ------------- | -------------   | ------------------ |      -------------       |
+|Bandwidth B3dB | min:3GHz  max:4GHz         | 3.004GHz            | Y             |
+|Bandwidth B20dB| min:4GHz  max:6GHz         | 5.9293GHz           | Y             |
+|NF             | <2dB       | 1.845dB         | Y             |
+|Gain           |>18dB @10GHz  <-2 outside B20dB        |19.61dB           | Y             |
+|Output Return Loss| >12dB @10GHz     | 27.09dB          | Y             |
+|Stability      |Unconditionally Stable           | Unconditionally Stable             | Y             |
+|Vcc            | 3.3V  | 3.3V        | Y             |
+
 
 
 
